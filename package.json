@@ -1,17 +1,17 @@
 {
-	"name": "Sample Theme",
-	"id": "sample-theme",
-	"author": "A cool human",
-	"version": "1.0.0",
-	"description": "Sample theme for Graviton Editor.",
-	"textTheme":"arctic",
+	"name": "Dark Orange",
+	"id": "orange-theme",
+	"author": "telantix",
+	"version": "1.00",
+	"description": "Dark orange color contrast theme for Graviton Editor.",
+	"textTheme":"dark",
 	"type":"theme",
 	"colorsScheme": {
 		"terminal": {
-			"Background": "white",
-			"Foreground": "black",
+			"Background": "black",
+			"Foreground": "grey",
 			"Selection": "rgb(180,180,180,0.6)",
-			"Cursor": "black",
+			"Cursor": "white",
 			"CursorAccent": "black",
 			"Black": "",
 			"Red": "",
@@ -51,19 +51,19 @@
 			"Button": {
 				"Background": "rgb(238,238,238)",
 				"Hovering": {
-					"Background": "rgb(212,212,212)",
+					"Background": "rgb(217, 122, 7)",
 					"Text": "black"
 				},
-				"Text": "black"
+				"Text": "white"
 			},
 			"Option": {
-				"Text": "black",
+				"Text": "white",
 				"Hovering": {
-					"Background": "#0066FF",
-					"Text": "white"
+					"Background": "rgb(217, 122, 7)",
+					"Text": "black"
 				}
 			},
-			"Divider": "rgb(212,212,212)"
+			"Divider": "rgb(77, 73, 73)"
 		},
 		"control": {
 			"Buttons": {
